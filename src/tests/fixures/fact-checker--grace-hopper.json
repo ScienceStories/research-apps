@@ -1,0 +1,836 @@
+{
+  "annotations": [
+    {
+      "content": "Grace Brewster Hopper was an",
+      "size": 27,
+      "sources": [],
+      "start": 0,
+      "status": "NO_STATUS",
+      "stop": 27
+    },
+    {
+      "content": " American computer scientis",
+      "size": 26,
+      "sources": [
+        {
+          "label": "country of citizenship",
+          "description": "the object is a country that recognizes the subject as its citizen",
+          "id": "P27",
+          "datatype": "WikibaseItem",
+          "values": [
+            {
+              "label": "United States of America",
+              "id": "Q30",
+              "instance": {
+                "label": "democratic republic",
+                "id": "Q5255892"
+              },
+              "description": "country primarily located in North America",
+              "image": "http://commons.wikimedia.org/wiki/Special:FilePath/City%20Lights%20of%20the%20United%20States%202012.jpg",
+              "website": "https://www.usa.gov/",
+              "location": {
+                "coordinates": "<not serializable>"
+              },
+              "references": []
+            }
+          ],
+          "semantic_label": "country of citizenship",
+          "wikibase_url": "https://www.wikidata.org/wiki/Q11641#P27"
+        }
+      ],
+      "start": 28,
+      "status": "VALID",
+      "stop": 54
+    },
+    {
+      "content": "t, mathematician, a",
+      "size": 18,
+      "sources": [
+        {
+          "label": "occupation",
+          "description": "occupation of a person; see also \"field of work\" (Property:P101), \"position held\" (Property:P39)",
+          "id": "P106",
+          "datatype": "WikibaseItem",
+          "values": [
+            {
+              "instance": {
+                "label": "occupation",
+                "id": "Q12737077"
+              },
+              "image": "http://commons.wikimedia.org/wiki/Special:FilePath/CMAP%20-%20Centre%20de%20Math%C3%A9matiques%20Appliqu%C3%A9es%20de%20l%27Ecole%20polytechnique%20%2825911635211%29.jpg",
+              "label": "mathematician",
+              "description": "person with an extensive knowledge of mathematics",
+              "id": "Q170790",
+              "references": [
+                {
+                  "property": {
+                    "label": "http://www.wikidata.org/prop/reference/P248",
+                    "id": "P248"
+                  },
+                  "value": {
+                    "label": "NNDB",
+                    "id": "Q1373513",
+                    "description": "database of famous people"
+                  }
+                },
+                {
+                  "property": {
+                    "label": "http://www.wikidata.org/prop/reference/P304",
+                    "id": "P304"
+                  },
+                  "value": {
+                    "label": "616-617",
+                    "id": ""
+                  }
+                },
+                {
+                  "property": {
+                    "label": "http://www.wikidata.org/prop/reference/P854",
+                    "id": "P854"
+                  },
+                  "value": {
+                    "label": "http://www-history.mcs.st-and.ac.uk/Mathematicians/Hopper.html",
+                    "id": ""
+                  }
+                },
+                {
+                  "property": {
+                    "label": "http://www.wikidata.org/prop/reference/P1263",
+                    "id": "P1263"
+                  },
+                  "value": {
+                    "label": "660/000098366",
+                    "id": ""
+                  }
+                },
+                {
+                  "property": {
+                    "label": "http://www.wikidata.org/prop/reference/P143",
+                    "id": "P143"
+                  },
+                  "value": {
+                    "label": "Dutch Wikipedia",
+                    "id": "Q10000",
+                    "description": "Dutch-language edition of Wikipedia, the free encyclopedia"
+                  }
+                },
+                {
+                  "property": {
+                    "label": "http://www.wikidata.org/prop/reference/P478",
+                    "id": "P478"
+                  },
+                  "value": {
+                    "label": "1",
+                    "id": ""
+                  }
+                }
+              ]
+            },
+            {
+              "instance": {
+                "label": "profession",
+                "id": "Q28640"
+              },
+              "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Albert%20Einstein%20Head.jpg",
+              "label": "physicist",
+              "description": "scientist who does research in physics",
+              "id": "Q169470",
+              "references": [
+                {
+                  "property": {
+                    "label": "http://www.wikidata.org/prop/reference/P3452",
+                    "id": "P3452"
+                  },
+                  "value": {
+                    "label": "Category:American physicists",
+                    "id": "Q7040848",
+                    "description": "Wikimedia category"
+                  }
+                },
+                {
+                  "property": {
+                    "label": "http://www.wikidata.org/prop/reference/P143",
+                    "id": "P143"
+                  },
+                  "value": {
+                    "label": "Dutch Wikipedia",
+                    "id": "Q10000",
+                    "description": "Dutch-language edition of Wikipedia, the free encyclopedia"
+                  }
+                },
+                {
+                  "property": {
+                    "label": "http://www.wikidata.org/prop/reference/P813",
+                    "id": "P813"
+                  },
+                  "value": {
+                    "label": "2019-06-14T00:00:00Z",
+                    "id": ""
+                  }
+                },
+                {
+                  "property": {
+                    "label": "http://www.wikidata.org/prop/reference/value/P813",
+                    "id": "value/P813"
+                  },
+                  "value": {
+                    "label": "http://www.wikidata.org/value/fde22bd9a04b1715f8e454f0e0d38be3",
+                    "id": ""
+                  }
+                }
+              ]
+            },
+            {
+              "instance": {
+                "label": "profession",
+                "id": "Q28640"
+              },
+              "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Ingenieur%20reseaux.jpg",
+              "label": "computer scientist",
+              "description": "one who studies or practises computer science",
+              "id": "Q82594",
+              "references": [
+                {
+                  "property": {
+                    "label": "http://www.wikidata.org/prop/reference/P304",
+                    "id": "P304"
+                  },
+                  "value": {
+                    "label": "616-617",
+                    "id": ""
+                  }
+                },
+                {
+                  "property": {
+                    "label": "http://www.wikidata.org/prop/reference/P248",
+                    "id": "P248"
+                  },
+                  "value": {
+                    "label": "The Biographical Dictionary of Women in Science",
+                    "id": "Q28721132",
+                    "description": "A two-volume bio/bibliographical resource covering approximately 2500 women scientists"
+                  }
+                },
+                {
+                  "property": {
+                    "label": "http://www.wikidata.org/prop/reference/P478",
+                    "id": "P478"
+                  },
+                  "value": {
+                    "label": "1",
+                    "id": ""
+                  }
+                }
+              ]
+            },
+            {
+              "instance": {
+                "label": "academic profession",
+                "id": "Q66666607"
+              },
+              "label": "university teacher",
+              "description": "person teaching at a university",
+              "id": "Q1622272",
+              "image": "http://commons.wikimedia.org/wiki/Special:FilePath/A%20lecture%20at%20the%20University%20of%20West%20London%2C%20Ealing%20Campus.jpg",
+              "references": [
+                {
+                  "property": {
+                    "label": "http://www.wikidata.org/prop/reference/P143",
+                    "id": "P143"
+                  },
+                  "value": {
+                    "label": "German Wikipedia",
+                    "id": "Q48183",
+                    "description": "German-language edition of Wikipedia"
+                  }
+                }
+              ]
+            },
+            {
+              "instance": {
+                "label": "profession",
+                "id": "Q28640"
+              },
+              "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Programmer%20writing%20code%20with%20Unit%20Tests.jpg",
+              "label": "programmer",
+              "description": "person who writes computer software (subclass of software developer)",
+              "id": "Q5482740",
+              "references": [
+                {
+                  "property": {
+                    "label": "http://www.wikidata.org/prop/reference/P854",
+                    "id": "P854"
+                  },
+                  "value": {
+                    "label": "http://www.nndb.com/lists/861/000106543/",
+                    "id": ""
+                  }
+                }
+              ]
+            },
+            {
+              "label": "naval officer",
+              "id": "Q10669499",
+              "instance": {
+                "label": "maritime occupation",
+                "id": "Q99547053"
+              },
+              "description": "commissioned officer serving in a navy",
+              "references": []
+            }
+          ],
+          "semantic_label": "occupation",
+          "wikibase_url": "https://www.wikidata.org/wiki/Q11641#P106"
+        }
+      ],
+      "start": 55,
+      "status": "VALID",
+      "stop": 73
+    },
+    {
+      "content": "nd United Sta",
+      "size": 12,
+      "sources": [
+        {
+          "label": "occupation",
+          "description": "occupation of a person; see also \"field of work\" (Property:P101), \"position held\" (Property:P39)",
+          "id": "P106",
+          "datatype": "WikibaseItem",
+          "values": [
+            {
+              "instance": {
+                "label": "occupation",
+                "id": "Q12737077"
+              },
+              "image": "http://commons.wikimedia.org/wiki/Special:FilePath/CMAP%20-%20Centre%20de%20Math%C3%A9matiques%20Appliqu%C3%A9es%20de%20l%27Ecole%20polytechnique%20%2825911635211%29.jpg",
+              "label": "mathematician",
+              "description": "person with an extensive knowledge of mathematics",
+              "id": "Q170790",
+              "references": [
+                {
+                  "property": {
+                    "label": "http://www.wikidata.org/prop/reference/P248",
+                    "id": "P248"
+                  },
+                  "value": {
+                    "label": "NNDB",
+                    "id": "Q1373513",
+                    "description": "database of famous people"
+                  }
+                },
+                {
+                  "property": {
+                    "label": "http://www.wikidata.org/prop/reference/P304",
+                    "id": "P304"
+                  },
+                  "value": {
+                    "label": "616-617",
+                    "id": ""
+                  }
+                },
+                {
+                  "property": {
+                    "label": "http://www.wikidata.org/prop/reference/P854",
+                    "id": "P854"
+                  },
+                  "value": {
+                    "label": "http://www-history.mcs.st-and.ac.uk/Mathematicians/Hopper.html",
+                    "id": ""
+                  }
+                },
+                {
+                  "property": {
+                    "label": "http://www.wikidata.org/prop/reference/P1263",
+                    "id": "P1263"
+                  },
+                  "value": {
+                    "label": "660/000098366",
+                    "id": ""
+                  }
+                },
+                {
+                  "property": {
+                    "label": "http://www.wikidata.org/prop/reference/P143",
+                    "id": "P143"
+                  },
+                  "value": {
+                    "label": "Dutch Wikipedia",
+                    "id": "Q10000",
+                    "description": "Dutch-language edition of Wikipedia, the free encyclopedia"
+                  }
+                },
+                {
+                  "property": {
+                    "label": "http://www.wikidata.org/prop/reference/P478",
+                    "id": "P478"
+                  },
+                  "value": {
+                    "label": "1",
+                    "id": ""
+                  }
+                }
+              ]
+            },
+            {
+              "instance": {
+                "label": "profession",
+                "id": "Q28640"
+              },
+              "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Albert%20Einstein%20Head.jpg",
+              "label": "physicist",
+              "description": "scientist who does research in physics",
+              "id": "Q169470",
+              "references": [
+                {
+                  "property": {
+                    "label": "http://www.wikidata.org/prop/reference/P3452",
+                    "id": "P3452"
+                  },
+                  "value": {
+                    "label": "Category:American physicists",
+                    "id": "Q7040848",
+                    "description": "Wikimedia category"
+                  }
+                },
+                {
+                  "property": {
+                    "label": "http://www.wikidata.org/prop/reference/P143",
+                    "id": "P143"
+                  },
+                  "value": {
+                    "label": "Dutch Wikipedia",
+                    "id": "Q10000",
+                    "description": "Dutch-language edition of Wikipedia, the free encyclopedia"
+                  }
+                },
+                {
+                  "property": {
+                    "label": "http://www.wikidata.org/prop/reference/P813",
+                    "id": "P813"
+                  },
+                  "value": {
+                    "label": "2019-06-14T00:00:00Z",
+                    "id": ""
+                  }
+                },
+                {
+                  "property": {
+                    "label": "http://www.wikidata.org/prop/reference/value/P813",
+                    "id": "value/P813"
+                  },
+                  "value": {
+                    "label": "http://www.wikidata.org/value/fde22bd9a04b1715f8e454f0e0d38be3",
+                    "id": ""
+                  }
+                }
+              ]
+            },
+            {
+              "instance": {
+                "label": "profession",
+                "id": "Q28640"
+              },
+              "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Ingenieur%20reseaux.jpg",
+              "label": "computer scientist",
+              "description": "one who studies or practises computer science",
+              "id": "Q82594",
+              "references": [
+                {
+                  "property": {
+                    "label": "http://www.wikidata.org/prop/reference/P304",
+                    "id": "P304"
+                  },
+                  "value": {
+                    "label": "616-617",
+                    "id": ""
+                  }
+                },
+                {
+                  "property": {
+                    "label": "http://www.wikidata.org/prop/reference/P248",
+                    "id": "P248"
+                  },
+                  "value": {
+                    "label": "The Biographical Dictionary of Women in Science",
+                    "id": "Q28721132",
+                    "description": "A two-volume bio/bibliographical resource covering approximately 2500 women scientists"
+                  }
+                },
+                {
+                  "property": {
+                    "label": "http://www.wikidata.org/prop/reference/P478",
+                    "id": "P478"
+                  },
+                  "value": {
+                    "label": "1",
+                    "id": ""
+                  }
+                }
+              ]
+            },
+            {
+              "instance": {
+                "label": "academic profession",
+                "id": "Q66666607"
+              },
+              "label": "university teacher",
+              "description": "person teaching at a university",
+              "id": "Q1622272",
+              "image": "http://commons.wikimedia.org/wiki/Special:FilePath/A%20lecture%20at%20the%20University%20of%20West%20London%2C%20Ealing%20Campus.jpg",
+              "references": [
+                {
+                  "property": {
+                    "label": "http://www.wikidata.org/prop/reference/P143",
+                    "id": "P143"
+                  },
+                  "value": {
+                    "label": "German Wikipedia",
+                    "id": "Q48183",
+                    "description": "German-language edition of Wikipedia"
+                  }
+                }
+              ]
+            },
+            {
+              "instance": {
+                "label": "profession",
+                "id": "Q28640"
+              },
+              "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Programmer%20writing%20code%20with%20Unit%20Tests.jpg",
+              "label": "programmer",
+              "description": "person who writes computer software (subclass of software developer)",
+              "id": "Q5482740",
+              "references": [
+                {
+                  "property": {
+                    "label": "http://www.wikidata.org/prop/reference/P854",
+                    "id": "P854"
+                  },
+                  "value": {
+                    "label": "http://www.nndb.com/lists/861/000106543/",
+                    "id": ""
+                  }
+                }
+              ]
+            },
+            {
+              "label": "naval officer",
+              "id": "Q10669499",
+              "instance": {
+                "label": "maritime occupation",
+                "id": "Q99547053"
+              },
+              "description": "commissioned officer serving in a navy",
+              "references": []
+            }
+          ],
+          "semantic_label": "occupation",
+          "wikibase_url": "https://www.wikidata.org/wiki/Q11641#P106"
+        }
+      ],
+      "start": 74,
+      "status": "VALID",
+      "stop": 86
+    },
+    {
+      "content": "tes Navy rear admiral. On",
+      "size": 24,
+      "sources": [
+        {
+          "label": "military rank",
+          "description": "military rank achieved by a person (should usually have a \"start time\" qualifier), or military rank associated with a position",
+          "id": "P410",
+          "datatype": "WikibaseItem",
+          "values": [
+            {
+              "instance": {
+                "label": "military rank",
+                "id": "Q56019"
+              },
+              "image": "http://commons.wikimedia.org/wiki/Special:FilePath/US%20PHS%20O7%20insignia.svg",
+              "label": "rear admiral",
+              "description": "naval rank of the United States",
+              "id": "Q1278830",
+              "references": [
+                {
+                  "property": {
+                    "label": "http://www.wikidata.org/prop/reference/P143",
+                    "id": "P143"
+                  },
+                  "value": {
+                    "label": "French Wikipedia",
+                    "id": "Q8447",
+                    "description": "French-language edition of Wikipedia"
+                  }
+                },
+                {
+                  "property": {
+                    "label": "http://www.wikidata.org/prop/reference/P813",
+                    "id": "P813"
+                  },
+                  "value": {
+                    "label": "2016-09-22T00:00:00Z",
+                    "id": ""
+                  }
+                },
+                {
+                  "property": {
+                    "label": "http://www.wikidata.org/prop/reference/value/P813",
+                    "id": "value/P813"
+                  },
+                  "value": {
+                    "label": "http://www.wikidata.org/value/9535bbd273a98a304ba3d91d07a6bb07",
+                    "id": ""
+                  }
+                },
+                {
+                  "property": {
+                    "label": "http://www.wikidata.org/prop/reference/P854",
+                    "id": "P854"
+                  },
+                  "value": {
+                    "label": "http://www.cs.yale.edu/homes/tap/Files/hopper-story.html",
+                    "id": ""
+                  }
+                }
+              ],
+              "qualifiers": {
+                "P580": {
+                  "label": "start time",
+                  "id": "P580",
+                  "datatype": "Time",
+                  "values": {
+                    "1985-01-01T00:00:00Z": {
+                      "label": "<not serializable>",
+                      "id": ""
+                    }
+                  }
+                }
+              }
+            }
+          ],
+          "semantic_label": "military rank",
+          "wikibase_url": "https://www.wikidata.org/wiki/Q11641#P410"
+        }
+      ],
+      "start": 87,
+      "status": "VALID",
+      "stop": 111
+    },
+    {
+      "content": "e of the first programmers of the Harvard Mar",
+      "size": 44,
+      "sources": [
+        {
+          "label": "notable work",
+          "description": "notable scientific, artistic or literary work, or other work of significance among subject's works",
+          "id": "P800",
+          "datatype": "WikibaseItem",
+          "values": [
+            {
+              "instance": {
+                "label": "procedural programming language",
+                "id": "Q28922885"
+              },
+              "label": "FLOW-MATIC",
+              "description": "programming language",
+              "id": "Q1389173",
+              "references": [
+                {
+                  "property": {
+                    "label": "http://www.wikidata.org/prop/reference/P1065",
+                    "id": "P1065"
+                  },
+                  "value": {
+                    "label": "https://web.archive.org/web/20161206163148/http://archive.computerhistory.org/resources/access/text/2015/06/102702026-05-01-acc.pdf",
+                    "id": ""
+                  }
+                },
+                {
+                  "property": {
+                    "label": "http://www.wikidata.org/prop/reference/P813",
+                    "id": "P813"
+                  },
+                  "value": {
+                    "label": "2018-02-24T00:00:00Z",
+                    "id": ""
+                  }
+                },
+                {
+                  "property": {
+                    "label": "http://www.wikidata.org/prop/reference/value/P813",
+                    "id": "value/P813"
+                  },
+                  "value": {
+                    "label": "http://www.wikidata.org/value/d24fc0eacbf497588120971b15db3022",
+                    "id": ""
+                  }
+                },
+                {
+                  "property": {
+                    "label": "http://www.wikidata.org/prop/reference/P854",
+                    "id": "P854"
+                  },
+                  "value": {
+                    "label": "http://archive.computerhistory.org/resources/access/text/2015/06/102702026-05-01-acc.pdf",
+                    "id": ""
+                  }
+                },
+                {
+                  "property": {
+                    "label": "http://www.wikidata.org/prop/reference/value/P2960",
+                    "id": "value/P2960"
+                  },
+                  "value": {
+                    "label": "http://www.wikidata.org/value/c9cd2e744551159fdf2f15250b851fd5",
+                    "id": ""
+                  }
+                },
+                {
+                  "property": {
+                    "label": "http://www.wikidata.org/prop/reference/P2960",
+                    "id": "P2960"
+                  },
+                  "value": {
+                    "label": "2016-12-06T00:00:00Z",
+                    "id": ""
+                  }
+                }
+              ]
+            }
+          ],
+          "semantic_label": "notable work",
+          "wikibase_url": "https://www.wikidata.org/wiki/Q11641#P800"
+        }
+      ],
+      "start": 112,
+      "status": "VALID",
+      "stop": 156
+    },
+    {
+      "content": "k I computer, she was a pioneer",
+      "size": 30,
+      "sources": [
+        {
+          "label": "notable work",
+          "description": "notable scientific, artistic or literary work, or other work of significance among subject's works",
+          "id": "P800",
+          "datatype": "WikibaseItem",
+          "values": [
+            {
+              "instance": {
+                "label": "procedural programming language",
+                "id": "Q28922885"
+              },
+              "label": "FLOW-MATIC",
+              "description": "programming language",
+              "id": "Q1389173",
+              "references": [
+                {
+                  "property": {
+                    "label": "http://www.wikidata.org/prop/reference/P1065",
+                    "id": "P1065"
+                  },
+                  "value": {
+                    "label": "https://web.archive.org/web/20161206163148/http://archive.computerhistory.org/resources/access/text/2015/06/102702026-05-01-acc.pdf",
+                    "id": ""
+                  }
+                },
+                {
+                  "property": {
+                    "label": "http://www.wikidata.org/prop/reference/P813",
+                    "id": "P813"
+                  },
+                  "value": {
+                    "label": "2018-02-24T00:00:00Z",
+                    "id": ""
+                  }
+                },
+                {
+                  "property": {
+                    "label": "http://www.wikidata.org/prop/reference/value/P813",
+                    "id": "value/P813"
+                  },
+                  "value": {
+                    "label": "http://www.wikidata.org/value/d24fc0eacbf497588120971b15db3022",
+                    "id": ""
+                  }
+                },
+                {
+                  "property": {
+                    "label": "http://www.wikidata.org/prop/reference/P854",
+                    "id": "P854"
+                  },
+                  "value": {
+                    "label": "http://archive.computerhistory.org/resources/access/text/2015/06/102702026-05-01-acc.pdf",
+                    "id": ""
+                  }
+                },
+                {
+                  "property": {
+                    "label": "http://www.wikidata.org/prop/reference/value/P2960",
+                    "id": "value/P2960"
+                  },
+                  "value": {
+                    "label": "http://www.wikidata.org/value/c9cd2e744551159fdf2f15250b851fd5",
+                    "id": ""
+                  }
+                },
+                {
+                  "property": {
+                    "label": "http://www.wikidata.org/prop/reference/P2960",
+                    "id": "P2960"
+                  },
+                  "value": {
+                    "label": "2016-12-06T00:00:00Z",
+                    "id": ""
+                  }
+                }
+              ]
+            }
+          ],
+          "semantic_label": "notable work",
+          "wikibase_url": "https://www.wikidata.org/wiki/Q11641#P800"
+        }
+      ],
+      "start": 157,
+      "status": "VALID",
+      "stop": 187
+    }
+  ],
+  "coverage": {
+    "INVALID": {
+      "count": 0,
+      "size": 0
+    },
+    "NO_STATUS": {
+      "count": 1,
+      "size": 27
+    },
+    "UNKNOWN": {
+      "count": 0,
+      "size": 0
+    },
+    "VALID": {
+      "count": 6,
+      "size": 154
+    }
+  },
+  "entity": {
+    "aliases": [
+      "Amazing Grace",
+      "Grace Murray",
+      "Admiral Hopper",
+      "Grace Brewster Murray",
+      "Grace Brewster Murray Hopper",
+      "Grace M. Hopper",
+      "Grace Murray Hopper",
+      "Rear Admiral Grace Hopper"
+    ],
+    "description": "American computer scientist and United States Navy officer",
+    "id": "Q11641",
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Commodore%20Grace%20M.%20Hopper%2C%20USN%20%28covered%29.jpg",
+    "label": "Grace Hopper",
+    "wikibase_url": "https://www.wikidata.org/wiki/Q11641"
+  }
+}
