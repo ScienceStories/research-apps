@@ -5,6 +5,7 @@ import evaTardos from '../../data/fact-checker/inputs/eva-tardos.json';
 import graceHopper from '../../data/fact-checker/inputs/grace-hopper.json';
 import margaretMead from '../../data/fact-checker/inputs/margaret-mead.json';
 import marthaLudwig from '../../data/fact-checker/inputs/martha-ludwig.json';
+import maryamMirzakhani from '../../data/fact-checker/inputs/maryam-mirzakhani.json';
 import { FactCheckerExampleInput, FactCheckerStatus } from '../types';
 
 
@@ -14,6 +15,7 @@ export const {
 } = process.env;
 
 export const factCheckerExampleInputs: Array<FactCheckerExampleInput> = [
+  maryamMirzakhani,
   graceHopper,
   beatriceHill,
   chienShiungWu,
