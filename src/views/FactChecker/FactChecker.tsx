@@ -17,12 +17,15 @@ import FactCheckerPassageForm from
 import FactCheckerAnnotatedPassageContainer from
   '../../components/containers/FactCheckerAnnotatedPassageContainer/FactCheckerAnnotatedPassageContainer';
 import MainLayout from '../../layouts/MainLayout/MainLayout';
-import { FactCheckerResponse } from '../../types';
+import { FactCheckerPropertyInstruction, FactCheckerResponse } from '../../types';
 
 
 export default function FactChecker() {
   const [apiKey, setApiKey] = useState('');
   const [passage, setPassage] = useState('');
+  const [propertyInstructions, setPropertyInstructions] = (
+    useState<Array<FactCheckerPropertyInstruction>>([])
+  );
   const [wikibaseId, setWikibaseId] = useState<string | undefined>(undefined);
   const [loading, setLoading] = useState(false);
   const [configPanelExpanded, setconfigPanelExpanded] = useState(true);
@@ -35,6 +38,9 @@ export default function FactChecker() {
   const showResultsPanel = !!data;
 
   const handleConfigFormApiKeyChange = (newApiKey: string) => setApiKey(newApiKey);
+  const handleConfigFormPropInstructionsChange = (newValue: FactCheckerPropertyInstruction[]) => {
+    setPropertyInstructions(newValue)
+  };
   const handleConfigFormWikibaseIdChange = (newWikibaseId: string) => setWikibaseId(newWikibaseId);
   const handleConfigPanelChange = () => setconfigPanelExpanded(!configPanelExpanded);
   const handlePassagePanelChange = () => setPassagePanelExpanded(!passagePanelExpanded);
@@ -46,6 +52,7 @@ export default function FactChecker() {
       const factCheckerResponse = await aiFactCheck({
         api_key: apiKey,
         passage,
+        property_instructions: propertyInstructions.length ? propertyInstructions : undefined,
         wikibase_id: wikibaseId || undefined,
       })
       setData(factCheckerResponse);
@@ -86,7 +93,9 @@ export default function FactChecker() {
             <AccordionDetails>
               <FactCheckerConfigForm
                 apiKey={apiKey}
+                propertyInstructions={propertyInstructions}
                 onApiKeyChange={handleConfigFormApiKeyChange}
+                onPropertyInstructionsChange={handleConfigFormPropInstructionsChange}
                 onWikibaseIdChange={handleConfigFormWikibaseIdChange}
                 wikibaseId={wikibaseId}
               />
@@ -99,7 +108,10 @@ export default function FactChecker() {
           >
             <AccordionSummary>
               <DifferenceOutlinedIcon />
-              <Typography pl={1}>
+              <Typography
+                pl={1}
+                variant="h5"
+              >
                 Passage Text
               </Typography>
             </AccordionSummary>
