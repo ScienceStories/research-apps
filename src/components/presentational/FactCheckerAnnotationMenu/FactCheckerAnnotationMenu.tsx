@@ -26,7 +26,7 @@ interface FactCheckerAnnotationMenuProps {
 }
 
 const refKey = (reference: FactCheckerReference, index: number) => `${reference.property.id}-${index}`;
-const sourceKey = (id: FactCheckerSource['id'], index: number) =>  `${id}-${index}`;
+const sourceKey = (id: FactCheckerSource['property_id'], index: number) =>  `${id}-${index}`;
 const valueKey = (label: FactCheckerSourceValue['label'], index: number) => `${label}-${index}`
 
 export default function FactCheckerAnnotationMenu({ annotation }: FactCheckerAnnotationMenuProps) {

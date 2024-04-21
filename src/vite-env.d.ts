@@ -12,7 +12,7 @@ declare module '*.svg' {
 
 declare const process : {
   env: {
-    STORIES_SERVICES_API_BASE_URL: string
-    STORIES_SERVICES_DISABLED: string
+    STORIES_SERVICES_API_BASE_URL: string;
+    STORIES_SERVICES_DISABLED: string;
   }
 }
