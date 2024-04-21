@@ -1,5 +1,5 @@
 import { storiesServicesAPIIsEnabled } from '../constants';
-import factCheckerResponse from '../tests/fixures/fact-checker--grace-hopper.json';
+import factCheckerResponse from '../tests/fixtures/fact-checker--grace-hopper.json';
 import { FactCheckerRequest, FactCheckerResponse } from '../types';
 import { sleep } from '../utils/factChecker';
 import apiClient from './client';

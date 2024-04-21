@@ -47,9 +47,9 @@ export interface FactCheckerReference {
 
 export interface FactCheckerRequest {
   api_key: string;
+  entity_id?: string;
   passage: string;
   property_instructions?: Array<FactCheckerPropertyInstruction>;
-  wikibase_id?: string;
 }
 
 export interface FactCheckerResponse {
@@ -60,8 +60,8 @@ export interface FactCheckerResponse {
 
 export interface FactCheckerSource {
   description?: string;
-  id: string;
-  label: string;
+  property_id: string;
+  property_label: string;
   values: Array<FactCheckerSourceValue>;
   wikibase_url: string;
 }

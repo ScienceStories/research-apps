@@ -13,9 +13,9 @@
       "size": 26,
       "sources": [
         {
-          "label": "country of citizenship",
+          "property_label": "country of citizenship",
           "description": "the object is a country that recognizes the subject as its citizen",
-          "id": "P27",
+          "property_id": "P27",
           "datatype": "WikibaseItem",
           "values": [
             {
@@ -47,9 +47,9 @@
       "size": 18,
       "sources": [
         {
-          "label": "occupation",
+          "property_label": "occupation",
           "description": "occupation of a person; see also \"field of work\" (Property:P101), \"position held\" (Property:P39)",
-          "id": "P106",
+          "property_id": "P106",
           "datatype": "WikibaseItem",
           "values": [
             {
@@ -292,9 +292,9 @@
       "size": 12,
       "sources": [
         {
-          "label": "occupation",
+          "property_label": "occupation",
           "description": "occupation of a person; see also \"field of work\" (Property:P101), \"position held\" (Property:P39)",
-          "id": "P106",
+          "property_id": "P106",
           "datatype": "WikibaseItem",
           "values": [
             {
@@ -537,9 +537,9 @@
       "size": 24,
       "sources": [
         {
-          "label": "military rank",
+          "property_label": "military rank",
           "description": "military rank achieved by a person (should usually have a \"start time\" qualifier), or military rank associated with a position",
-          "id": "P410",
+          "property_id": "P410",
           "datatype": "WikibaseItem",
           "values": [
             {
@@ -622,9 +622,9 @@
       "size": 44,
       "sources": [
         {
-          "label": "notable work",
+          "property_label": "notable work",
           "description": "notable scientific, artistic or literary work, or other work of significance among subject's works",
-          "id": "P800",
+          "property_id": "P800",
           "datatype": "WikibaseItem",
           "values": [
             {
@@ -712,9 +712,9 @@
       "size": 30,
       "sources": [
         {
-          "label": "notable work",
+          "property_label": "notable work",
           "description": "notable scientific, artistic or literary work, or other work of significance among subject's works",
-          "id": "P800",
+          "property_id": "P800",
           "datatype": "WikibaseItem",
           "values": [
             {

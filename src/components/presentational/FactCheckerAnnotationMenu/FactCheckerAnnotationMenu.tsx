@@ -72,14 +72,14 @@ export default function FactCheckerAnnotationMenu({ annotation }: FactCheckerAnn
               </Typography>
             </Grid>
             {sources.map(({
-              id,
-              label,
+              property_id: propertyId,
+              property_label: propertyLabel,
               values,
               wikibase_url,
             }, i) => (
               <Grid
                 bgcolor="background.lightGrey"
-                key={sourceKey(id, i)}
+                key={sourceKey(propertyId, i)}
                 my={2}
                 sx={{
                   marginY: 2,
@@ -114,7 +114,7 @@ export default function FactCheckerAnnotationMenu({ annotation }: FactCheckerAnn
                         fontSize="inherit"
                         sx={{ mr: 1 }}
                       />
-                      {label}
+                      {propertyLabel}
                     </Typography>
                   </Link>
                   <Grid mt={1}>
