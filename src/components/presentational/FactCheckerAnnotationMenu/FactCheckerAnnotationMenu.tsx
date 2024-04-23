@@ -26,7 +26,7 @@ interface FactCheckerAnnotationMenuProps {
 }
 
 const refKey = (reference: FactCheckerReference, index: number) => `${reference.property.id}-${index}`;
-const sourceKey = (id: FactCheckerSource['id'], index: number) =>  `${id}-${index}`;
+const sourceKey = (id: FactCheckerSource['property_id'], index: number) =>  `${id}-${index}`;
 const valueKey = (label: FactCheckerSourceValue['label'], index: number) => `${label}-${index}`
 
 export default function FactCheckerAnnotationMenu({ annotation }: FactCheckerAnnotationMenuProps) {
@@ -72,14 +72,14 @@ export default function FactCheckerAnnotationMenu({ annotation }: FactCheckerAnn
               </Typography>
             </Grid>
             {sources.map(({
-              id,
-              label,
+              property_id: propertyId,
+              property_label: propertyLabel,
               values,
               wikibase_url,
             }, i) => (
               <Grid
                 bgcolor="background.lightGrey"
-                key={sourceKey(id, i)}
+                key={sourceKey(propertyId, i)}
                 my={2}
                 sx={{
                   marginY: 2,
@@ -114,7 +114,7 @@ export default function FactCheckerAnnotationMenu({ annotation }: FactCheckerAnn
                         fontSize="inherit"
                         sx={{ mr: 1 }}
                       />
-                      {label}
+                      {propertyLabel}
                     </Typography>
                   </Link>
                   <Grid mt={1}>

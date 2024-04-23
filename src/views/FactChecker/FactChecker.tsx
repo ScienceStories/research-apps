@@ -51,10 +51,10 @@ export default function FactChecker() {
     try {
       const factCheckerResponse = await aiFactCheck({
         api_key: apiKey,
+        entity_id: wikibaseId || undefined,
         passage,
         property_instructions: propertyInstructions.length ? propertyInstructions : undefined,
-        wikibase_id: wikibaseId || undefined,
-      })
+      });
       setData(factCheckerResponse);
       setPassagePanelExpanded(false);
     } catch(e) {

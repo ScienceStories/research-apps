@@ -5,10 +5,10 @@ import EnvironmentPlugin from 'vite-plugin-environment'
 
 export default defineConfig({
   plugins: [
-    EnvironmentPlugin([
-      'STORIES_SERVICES_API_BASE_URL',
-      'STORIES_SERVICES_DISABLED',
-    ]),
+    EnvironmentPlugin({
+      STORIES_SERVICES_API_BASE_URL: '',
+      STORIES_SERVICES_DISABLED: '',
+    }),
     react({ jsxImportSource: '@emotion/react' }),
   ],
 });
